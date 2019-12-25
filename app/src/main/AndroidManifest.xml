@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.farelands.aniss">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:usesCleartextTraffic="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".emergencyvideocall.base.InitVideoCallActivity"></activity>
+        <activity android:name=".emergencyvideocall.VideoCallActivity" />
+        <activity
+            android:name=".splashscreen.SplashScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashScreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".dashboard.MainActivity" />
+        <activity
+            android:name=".emergencyvideocall.base.EmergencyVideoCallOptionsActivity"
+            android:label="Video call"
+            android:parentActivityName=".dashboard.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".feedback.FeedbackActivity"
+            android:label="Feedback"
+            android:parentActivityName=".dashboard.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".emergencycall.EmergencyCallActivity"
+            android:label="Emergency Call Lines"
+            android:parentActivityName=".dashboard.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".securityinfo.SecurityInfoDetailsActivity"
+            android:label="Details"
+            android:parentActivityName=".securityinfo.SecurityInfoOptionsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".securityinfo.SecurityInfoOptionsActivity"
+            android:label="Give Security Info"
+            android:parentActivityName=".dashboard.MainActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

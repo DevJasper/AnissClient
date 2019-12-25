@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "287168301852",
+    "firebase_url": "https://fastgov-calls-service.firebaseio.com",
+    "project_id": "fastgov-calls-service",
+    "storage_bucket": "fastgov-calls-service.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:287168301852:android:cea393cda4b2a9c63148d9",
+        "android_client_info": {
+          "package_name": "com.farelands.aniss"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "287168301852-3a5fr2ec7dfqil3nlk7dgmbcjkipjjqa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADKDIGJzLzqVPS90krRuwZwDY-5H2ow8w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "287168301852-3a5fr2ec7dfqil3nlk7dgmbcjkipjjqa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

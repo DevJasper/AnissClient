@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">ANISS</string>
+    <string name="your_security_is_our_priority">Your Safety &amp; Security are Our Priority</string>
+
+
+    <string name="Area">Area</string>
+    <string name="rationale_telephone"><![CDATA[<string name=\"raThis app needs access to your sms to read all your great messages.]]></string>
+    <string name="feedback">Give us a feedback</string>
+    <string-array name="areas_array">
+        <item>Area</item>
+        <item>Awka</item>
+        <item>Ekwulobia</item>
+        <item>Nnewi</item>
+        <item>Nneni</item>
+        <item>Amawbia</item>
+        <item>Agulu</item>
+        <item>Nnofia</item>
+        <item>Dunukofia</item>
+        <item>Nise</item>
+        <item>Okija</item>
+        <item>Oko</item>
+        <item>Nkpor</item>
+        <item>Obosi</item>
+        <item>Ogbaru</item>
+        <item>Ihiala</item>
+        <item>Awkuzu</item>
+        <item>Nimo</item>
+        <item>Adazi</item>
+        <item>Ufuma</item>
+
+
+        <item>Nsugbe</item>
+        <item>Ichida</item>
+        <item>Amichi</item>
+        <item>Ekwulumiri</item>
+        <item>Anam</item>
+        <item>Azia</item>
+        <item>Azigbo</item>
+        <item>Awgbu</item>
+        <item>Nibo</item>
+        <item>Nkpologwu</item>
+        <item>Nnobi</item>
+        <item>Nanka</item>
+        <item>Nando</item>
+        <item>Umuchu</item>
+        <item>Obeledu</item>
+        <item>Umunya</item>
+        <item>Umuoji</item>
+        <item>Utuh</item>
+        <item>Abba</item>
+        <item>Achalla</item>
+        <item>Agukwu</item>
+        <item>Ezinifite</item>
+        <item>Ifitedunu</item>
+        <item>Ogbunike</item>
+        <item>Ogidi</item>
+        <item>Nteje</item>
+        <item>Uli</item>
+        <item>Umuawulu</item>
+        <item>Umudioka</item>
+        <item>Umueje</item>
+        <item>Umueze anam</item>
+        <item>Ukwulu</item>
+
+
+        <item>Abatete</item>
+        <item>Aguluzigbo</item>
+        <item>Ikenga</item>
+        <item>Isuaniocha</item>
+        <item>Isulo</item>
+        <item>Mbosi</item>
+        <item>Osumenyi</item>
+        <item>Oraifite</item>
+        <item>Nzam</item>
+        <item>Ndiikelionwu</item>
+        <item>Enugwu Agidi</item>
+
+    </string-array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fastgov">Powered by FASTGOV</string>
+    <string name="calling">Calling ...</string>
+    <string name="ringing">Ringing ...</string>
+    <string name="anambra_integrated_security_and_surveillance">ANAMBRA INTEGRATED SECURITY AND SURVEILLANCE</string>
+</resources>
